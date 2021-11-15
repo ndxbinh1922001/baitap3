@@ -113,3 +113,11 @@ Kiểu dữ liệu byte có thể được tạo ở hai dạng: dùng hàm byte
 Ví dụ:<br>
 print(byte("hello","utf-8")) #b'hello'<br>
 print(type(byte("hello","utf-8"))) #<class 'bytes'><br>
+
+## Câu b:
+
+### if
+
+Cú pháp:<br>
+if bieu_thuc:<br>
+&nbsp;cac_lenh<br>
