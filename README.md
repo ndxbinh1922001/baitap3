@@ -46,7 +46,8 @@ consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua.'''
 
-##list
+## list
+
 List là một tập hợp được sắp xếp và có thể thay đổi. Trong Python, list được viết bằng dấu ngoặc vuông.Bạn truy cập các mục trong list bằng cách tham chiếu đến số chỉ mục.Ngoài ra, cũng có thể sử dụng hàm tạo list() để tạo một danh sách mới.<br>
 Ví dụ:<br>
 thislist = ["apple", "banana", "cherry"]<br>
