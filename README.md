@@ -119,5 +119,80 @@ print(type(byte("hello","utf-8"))) #<class 'bytes'><br>
 ### if
 
 Cú pháp:<br>
+TH1:<br>
 if bieu_thuc:<br>
-&nbsp;&nbsp;&nbsp;&nbsp;cac_lenh<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cac_lenh<br>
+TH2:<br>
+if bieu_thuc:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cac_lenh<br>
+else:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cac_lenh<br>
+TH3:<br>
+if bieu_thuc1:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cac_lenh<br>
+elif bieu_thuc2:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cac_lenh<br>
+else:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cac_lenh<br>
+
+Ví dụ:<br>
+var1 = 100<br>
+if var1<100:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("var1 be hon 100")<br>
+elif var1>100:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("var1 lon hon 100")<br>
+else:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("var1 bang 100")<br>
+
+### for
+
+Cú pháp: <br>
+TH1:<br>
+for biến in đối tượng có nhiều phần tử :
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Câu lệnh 1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Câu lệnh 2<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;…<br>
+TH2:<br>
+for biến in đối tượng có nhiều phần tử :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Câu lệnh 1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Câu lệnh 2<br>
+else:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Câu lệnh 3<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Câu lệnh 4<br>
+Ví dụ:<br>
+for num in (1,2,3):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;addnum = num + 2<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(addnum)<br>
+else:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("Da in xong")
+
+### while
+
+Cú pháp:<br>
+TH1:<br>
+while điều_kiện_kiểm_tra:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Khối lệnh của while<br>
+TH2:<br>
+while điều_kiện_kiểm_tra:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Khối lệnh của while<br>
+else:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Khối lệnh của else<br>
+Ví dụ:<br>
+a=0<br>
+while a<10:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(a)
+else:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("Da in xong cac so tu 0 toi 9")
+
+### ham(function)
+
+Cú pháp:<br>
+def ten_ham(các tham số/đối số):<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Các câu lệnh<br>
+Ví dụ:<br>
+def chao(ten):
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"""Hàm này dùng để
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chào một người được truyền
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vào như một tham số"""
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("Xin chào, " + ten + "!")
