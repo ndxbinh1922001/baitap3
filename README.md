@@ -202,6 +202,6 @@ def chao(ten):<br>
 Cú pháp:<br>
 lambda tham_so: bieu_thuc<br>
 Ví dụ:<br>
-list_goc = [10, 9, -8, -7, 6, 1, -2, 3, -4, 5]
-list_moi = list(map(lambda a: (a < 0)?0:a , list_goc))
-#list_goc = [10, 9, 0, 0, 6, 1, 0, 3, 0, 5]
+list_goc = [10, 9, -8, -7, 6, 1, -2, 3, -4, 5]<br>
+list_moi = list(map(lambda a: (a < 0)?0:a , list_goc))<br>
+#list_goc = [10, 9, 0, 0, 6, 1, 0, 3, 0, 5]<br>
