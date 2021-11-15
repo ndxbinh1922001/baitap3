@@ -191,8 +191,17 @@ def ten_ham(các tham số/đối số):<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Các câu lệnh<br>
 Ví dụ:<br>
-def chao(ten):
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"""Hàm này dùng để
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chào một người được truyền
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vào như một tham số"""
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("Xin chào, " + ten + "!")
+def chao(ten):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"""Hàm này dùng để<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chào một người được truyền<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vào như một tham số"""<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("Xin chào, " + ten + "!")<br>
+
+### Python lambda
+
+Cú pháp:<br>
+lambda tham_so: bieu_thuc<br>
+Ví dụ:<br>
+list_goc = [10, 9, -8, -7, 6, 1, -2, 3, -4, 5]
+list_moi = list(map(lambda a: (a < 0)?0:a , list_goc))
+#list_goc = [10, 9, 0, 0, 6, 1, 0, 3, 0, 5]
