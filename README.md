@@ -70,3 +70,44 @@ Ví dụ:<br>
 thisset = {"apple", "banana", "cherry"}<br>
 for x in thisset:<br>
 ###code###<br>
+Sau khi set được tạo, bạn không thể thay đổi các mục của nó, nhưng bạn có thể thêm các mục mới.Có thể sử dụng hàm tạo set() để tạo một set.<br>
+
+## dict
+
+dictionary là một tập hợp không có thứ tự, có thể thay đổi và được lập chỉ mục. Trong Python dictionary được viết bằng dấu ngoặc nhọn và chúng có các khóa và giá trị.dictionary cũng có thể chứa nhiều dictionary, đây được gọi là nested dictionaries.Cũng có thể sử dụng hàm tạo dict() để tạo dictionary mới.<br>
+Ví dụ:<br>
+thisdict = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}<br>
+myfamily = {
+"child1" : {
+"name" : "Emil",
+"year" : 2004
+},
+"child2" : {
+"name" : "Tobias",
+"year" : 2007
+},
+"child3" : {
+"name" : "Linus",
+"year" : 2011
+}
+}<br>
+thisdict = dict(brand="Ford", model="Mustang", year=1964)<br>
+
+## bool
+
+Boolean đại diện cho một trong hai giá trị: True hoặc False.<br>
+Ví dụ:<br>
+a=True<br>
+a=10>9 #True<br>
+a=9>10 #False<br>
+
+## bytes
+
+Kiểu dữ liệu byte có thể được tạo ở hai dạng: dùng hàm byte() hoặc sử dụng tiền tố “b”.<br>
+Ví dụ:<br>
+print(byte("hello","utf-8")) #b'hello'<br>
+print(type(byte("hello","utf-8"))) #<class 'bytes'><br>
