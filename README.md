@@ -31,6 +31,7 @@ Các ký tự chuỗi trong python được bao quanh bởi dấu ngoặc kép �
 Ví dụ:
 <br>
 'hello' cũng giống như "hello".
+<br>
 Bạn cũng có thể gán một chuỗi nhiều dòng cho một biến bằng cách sử dụng ba dấu ngoặc kép:
 <br>
 Ví dụ:
@@ -39,3 +40,15 @@ a = """Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."""
+<br>
+a = '''Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.'''
+
+##list
+List là một tập hợp được sắp xếp và có thể thay đổi. Trong Python, list được viết bằng dấu ngoặc vuông.Bạn truy cập các mục trong list bằng cách tham chiếu đến số chỉ mục.Ngoài ra, cũng có thể sử dụng hàm tạo list() để tạo một danh sách mới.<br>
+Ví dụ:<br>
+thislist = ["apple", "banana", "cherry"]<br>
+print(thislist[1])<br>
+thislist = list(("apple", "banana", "cherry"))<br>
