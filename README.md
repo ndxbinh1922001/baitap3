@@ -120,4 +120,4 @@ print(type(byte("hello","utf-8"))) #<class 'bytes'><br>
 
 Cú pháp:<br>
 if bieu_thuc:<br>
-&nbsp;cac_lenh<br>
+&nbsp;&nbsp;&nbsp;&nbsp;cac_lenh<br>
