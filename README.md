@@ -3,8 +3,11 @@
 ## int
 
 Int, hoặc integer, là một số nguyên, dương hoặc âm, không có số thập phân, có độ dài không giới hạn.
+<br>
 x = 1
+<br>
 y = 35656222554887711
+<br>
 z = -3255522
 
 ## float
