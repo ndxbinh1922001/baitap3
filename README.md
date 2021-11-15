@@ -53,3 +53,20 @@ Ví dụ:<br>
 thislist = ["apple", "banana", "cherry"]<br>
 print(thislist[1])<br>
 thislist = list(("apple", "banana", "cherry"))<br>
+
+## tuple
+
+tuple là một tập hợp được sắp xếp theo thứ tự và không thể thay đổi. Trong Python, tuple được viết bằng dấu ngoặc tròn.Bạn có thể truy cập phần tử của tuple bằng cách tham chiếu đến số chỉ mục, bên trong dấu ngoặc vuông.Cũng có thể sử dụng hàm tạo tuple() để tạo một bộ tuple.<br>
+Ví dụ:<br>
+thistuple = ("apple", "banana", "cherry")<br>
+print(thistuple[1])<pr>
+thistuple = tuple(("apple", "banana", "cherry"))<br>
+Khi một tuple được tạo, bạn không thể thay đổi các giá trị của nó. Tuples là không thể thay đổi, hoặc cũng được gọi bất biến.Nhưng có một cách giải quyết. Bạn có thể chuyển đổi tuple thành một list, thay đổi list và chuyển đổi lại list thành tuple.<br>
+
+## set
+
+set là một tập hợp không có thứ tự và không được lập chỉ mục. Trong Python, set được viết bằng dấu ngoặc nhọn.Bạn không thể truy cập các mục trong một set bằng cách tham chiếu đến chỉ mục hoặc khóa.Nhưng bạn có thể lặp qua các phần tử trong set bằng vòng lặp for hoặc kiểm tra xem giá trị được chỉ định có trong set hay không bằng cách sử dụng từ khóa in.<br>
+Ví dụ:<br>
+thisset = {"apple", "banana", "cherry"}<br>
+for x in thisset:<br>
+###code###<br>
